@@ -8,8 +8,8 @@
       rel="stylesheet"
       href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.5.0/font/bootstrap-icons.css"
     />
-    <link href="/dist/css/main.css" rel="stylesheet" />
-    <title>Book Website</title>
+    <link href="./dist/css/main.css" rel="stylesheet" />
+    <title>Verclere</title>
     <style>
       section {
         padding: 60px 0;
@@ -22,11 +22,12 @@
       <div class="container-xxl">
         <a href="#intro" class="navbar-brand">
           <span class="fw-bold text-secondary">
-            <i class="bi bi-book-half"></i>
-            Coding Master - The Book
+            <i class="bi bi-flower2"></i>
+            Verclere - The AROMA of your Soul
           </span>
         </a>
         <!-- toggle button for mobile nav -->
+        <!----
         <button
           class="navbar-toggler"
           type="button"
@@ -37,9 +38,9 @@
           aria-label="Toggle navigation"
         >
           <span class="navbar-toggler-icon"></span>
-        </button>
+        </button>-->
         <!-- navbar links -->
-        <div
+        <!--<div
           class="collapse navbar-collapse justify-content-end align-center"
           id="main-nav"
         >
@@ -60,26 +61,26 @@
               <a class="btn btn-secondary" href="#pricing">Buy Now</a>
             </li>
           </ul>
-        </div>
+        </div> -->
       </div>
     </nav>
 
     <!-- main image & intro text -->
-    <section id="intro">
+    <section id="intro" style="background-image: url('./assets/backgroung_image.jpg') ; background-repeat: no-repeat; background-size: cover">
       <div class="container-lg">
         <div class="row g-4 justify-content-center align-items-center">
           <div class="col-md-5 text-center text-md-start">
             <h1>
-              <div class="display-2">Coding Master</div>
-              <div class="display-5 text-muted">Level Up Your Coding Skills</div>
+              <div class="display-2">Verclère</div>
+              <div class="display-5 text-muted">The AROMA of your Soul</div>
             </h1>
             <p class="lead my-4 text-muted">
-              Lorem ipsum dolor sit amet consectetur adipisicing elit.
-              Laboriosam, dignissimos?
+              Verclère is the brand of choice for prestige fragrance as they are made with all-natural, organic, sustainably sourced ingredients
+              and is the trusted luxury brand for our world’s foremost environmental activists.
             </p>
             <a href="#pricing" class="btn btn-secondary btn-lg">Buy Now</a>
             <!-- open sidebar / offcanvas -->
-            <a
+            <!--<a
               href="#sidebar"
               class="d-block mt-3"
               data-bs-toggle="offcanvas"
@@ -87,7 +88,7 @@
               aria-controls="sidebar"
             >
               Explore my other books
-            </a>
+            </a>-->
           </div>
           <div class="col-md-5 text-center d-none d-md-block">
             <!-- tooltip -->
@@ -97,7 +98,7 @@
               title="Coding Master book cover"
             >
               <img
-                src="/assets/book-cover.jpg"
+                src="./assets/brand-logo.png"
                 class="img-fluid"
                 alt="book-cover"
               />
@@ -111,22 +112,27 @@
     <section id="pricing" class="bg-light mt-5">
       <div class="container-lg">
         <div class="text-center">
-          <h2>Pricing Plans</h2>
-          <p class="lead text-muted">Choose a pricing plan that suits you:</p>
+          <h2>Our Products</h2>
+          <!--<p class="lead text-muted">Choose a pricing plan that suits you:</p>-->
         </div>
 
         <div class="row my-5 align-items-center justify-content-center g-0">
           <div class="col-8 col-lg-4 col-xl-3">
             <div class="card border-0">
               <div class="card-body text-center py-4">
-                <h4 class="card-title">Starter Edition</h4>
-                <p class="lead card-subtitle">eBook download only</p>
-                <p class="display-5 my-4 text-primary fw-bold">$12.99</p>
-                <p class="card-text mx-5 text-muted d-none d-lg-block">
+                <h4 class="card-title">Premium Essential Oil</h4>
+                <p class="lead card-subtitle">Soothing Essential Oil</p>
+                <!--<p class="display-5 my-4 text-primary fw-bold">$12.99</p> -->
+                <!--<p class="card-text mx-5 text-muted d-none d-lg-block">
                   Lorem ipsum dolor sit amet consectetur adipisicing elit.
                   Mollitia, vitae magni! Repellat commodi a fuga corporis saepe
                   dolorum.
-                </p>
+                </p>-->
+                <img
+                src="./assets/brand-logo.png"
+                class="img-fluid"
+                alt="book-cover"
+              />
                 <a href="#" class="btn btn-outline-primary btn-lg mt-3">
                   Buy Now
                 </a>
@@ -140,14 +146,19 @@
                 Most Popular
               </div>
               <div class="card-body text-center py-5">
-                <h4 class="card-title">Complete Edition</h4>
-                <p class="lead card-subtitle">eBook download & all updates</p>
-                <p class="display-4 my-4 text-primary fw-bold">$18.99</p>
-                <p class="card-text mx-5 text-muted d-none d-lg-block">
+                <h4 class="card-title">Premium Perfume</h4>
+                <p class="lead card-subtitle">Goodness of Nature</p>
+                <!--<p class="display-4 my-4 text-primary fw-bold">$18.99</p> -->
+                <!--<p class="card-text mx-5 text-muted d-none d-lg-block">
                   Lorem ipsum dolor sit amet consectetur adipisicing elit.
                   Mollitia, vitae magni! Repellat commodi a fuga corporis saepe
                   dolorum.
-                </p>
+                </p>-->
+                <img
+                src="./assets/perfume-brand.png"
+                class="img-fluid"
+                alt="book-cover"
+              />
                 <a href="#" class="btn btn-outline-primary btn-lg mt-3">
                   Buy Now
                 </a>
@@ -158,14 +169,19 @@
           <div class="col-8 col-lg-4 col-xl-3">
             <div class="card border-0">
               <div class="card-body text-center py-4">
-                <h4 class="card-title">Ultimate Edition</h4>
-                <p class="lead card-subtitle">download, updates & extras</p>
-                <p class="display-5 my-4 text-primary fw-bold">$24.99</p>
-                <p class="card-text mx-5 text-muted d-none d-lg-block">
+                <h4 class="card-title">Travel Roll-ons</h4>
+                <p class="lead card-subtitle">Easy to carry</p>
+                <!--<p class="display-5 my-4 text-primary fw-bold">$24.99</p>-->
+               <!-- <p class="card-text mx-5 text-muted d-none d-lg-block">
                   Lorem ipsum dolor sit amet consectetur adipisicing elit.
                   Mollitia, vitae magni! Repellat commodi a fuga corporis saepe
                   dolorum.
-                </p>
+                </p>-->
+                <img
+                src="./assets/brand-logo.png"
+                class="img-fluid"
+                alt="book-cover"
+              />
                 <a href="#" class="btn btn-outline-primary btn-lg mt-3">
                   Buy Now
                 </a>
@@ -178,6 +194,7 @@
     </section>
 
     <!-- topics at a glance -->
+    <!--
     <section id="topics">
       <div class="container-md">
         <div class="text-center">
@@ -188,10 +205,11 @@
         </div>
         <div class="row my-5 g-5 justify-content-around align-items-center">
           <div class="col-6 col-lg-4">
-            <img src="/assets/books.jpg" class="img-fluid" alt="books" />
+            <img src="./assets/books.jpg" class="img-fluid" alt="books" />
           </div>
           <div class="col-lg-6">
             <!-- accordion -->
+            <!--
             <div class="accordion" id="chapters">
               <div class="accordion-item">
                 <h2 class="accordion-header" id="heading-1">
@@ -361,8 +379,9 @@
         </div>
       </div>
     </section>
-
+  -->
     <!-- reviews list -->
+    <!--
     <section id="reviews" class="bg-light">
       <div class="container-lg">
         <div class="text-center">
@@ -453,7 +472,7 @@
           </div>
         </div>
       </div>
-    </section>
+    </section> -->
 
     <!-- contact form -->
     <!-- form-control, form-label, form-select, input-group, input-group-text -->
@@ -553,13 +572,10 @@
         <div class="row justify-content-center">
           <div class="col-md-8 text-center">
             <p class="text-muted my-4">
-              Lorem ipsum dolor sit amet consectetur adipisicing elit. Vero
-              exercitationem voluptatibus porro, hic asperiores fuga illo
-              voluptates obcaecati deleniti veritatis sunt saepe quasi deserunt
-              ex ipsum. Est possimus, aspernatur, vitae eligendi rem odit
-              quaerat, ipsum pariatur ratione maxime delectus fuga minus
-              accusamus dolores iusto maiores accusantium cumque magnam placeat
-              quia!
+              Our brand draws inspiration from the serene and pristine beauty of nature. We hold the belief that fragrance is not just about a scent, but it should also provide an experience that links us to our surroundings.
+We were fascinated to learn about the therapeutic benefits of essential oils, using them to create unique blends that enhance mood, promote relaxation, and awaken the senses. We have crafted a line of premium natural perfumes that harness the power of nature to transport the wearer to another world. Each scent is carefully crafted using only the finest natural ingredients.
+Our perfumers travel the world in search of the finest natural ingredients, carefully selecting each one for its unique fragrance and therapeutic properties. From the lavender fields of Provence to the citrus groves of Sicily, we source our ingredients from small farms and artisanal producers who share our commitment to sustainability and ethical practices.
+Our brand's mission is to craft natural fragrances that delight the senses and soothe the soul.
             </p>
             <button
               class="btn btn-primary"

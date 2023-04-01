@@ -2919,6 +2919,7 @@ fieldset:disabled .btn {
   color: #000;
   background-color: #c29938;
   border-color: #c29938;
+  border-color: black;
 }
 
 .btn-primary:hover {
@@ -8136,7 +8137,7 @@ fieldset:disabled .btn {
 }
 
 .text_desc {
-  color: gold !important;
+  color: gold;
 }
 
 .text-black-50 {

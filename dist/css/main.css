@@ -3292,8 +3292,8 @@ fieldset:disabled .btn {
 }
 
 .btn-outline-primary {
-  color: #c29938;
-  border-color: #c29938;
+  color: gold;
+  border-color: #47443c;
 }
 
 .btn-outline-primary:hover {
@@ -8133,6 +8133,10 @@ fieldset:disabled .btn {
 .text-muted {
   --bs-text-opacity: 1;
   color: #6c757d !important;
+}
+
+.text_desc {
+  color: gold !important;
 }
 
 .text-black-50 {
